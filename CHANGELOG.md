@@ -20,6 +20,9 @@ FlatLaf Change Log
   (issue #1135)
 - Make sure that `META-INF/MANIFEST.MF` is first jar entry, so that tools that
   use `JarInputStream` readers see `Multi-Release: true`. (issue #1139)
+- Native libraries: Fixed `IllegalArgumentException: URI has an authority component`
+  trying to load native library when running application from a Windows network drive.
+  (issue #1145)
 - Extras:
   - `FlatSVGIcon`: Fixed wrong color when SVG uses `fill="currentColor"`. (issue #1144)
 
