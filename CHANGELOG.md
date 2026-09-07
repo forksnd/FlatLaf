@@ -8,7 +8,7 @@ FlatLaf Change Log
 - Added support for [Oklab](https://bottosson.github.io/posts/oklab/) and linear sRGB
   color spaces to color functions `mix()`, `tint()` and `shade()`. (PR #1132, issue #1109)
 - Theme Editor: Added preview for color functions. (see PR #1132)
-- macOS: Add support for the `Cmd+Baskspace` and `Cmd+Delete` text shortcuts in textboxes. (PR #1142)
+- macOS: Add support for the `Cmd+Backspace` and `Cmd+Delete` text shortcuts in textboxes. (PR #1142)
 
 #### Fixed bugs
 
