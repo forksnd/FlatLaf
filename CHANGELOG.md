@@ -8,6 +8,8 @@ FlatLaf Change Log
 - Added support for [Oklab](https://bottosson.github.io/posts/oklab/) and linear sRGB
   color spaces to color functions `mix()`, `tint()` and `shade()`. (PR #1132, issue #1109)
 - Theme Editor: Added preview for color functions. (see PR #1132)
+- macOS: Add support for `Cmd+Backspace` and `Cmd+Delete` shortcuts to text
+  components. (PR #1142, issue #1095)
 
 #### Fixed bugs
 
