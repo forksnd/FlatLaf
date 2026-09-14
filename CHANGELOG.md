@@ -20,6 +20,8 @@ FlatLaf Change Log
 - ScrollPane: When using rounded border and scrollpane width was near view
   width, then the horizontal scrollbar was shown even when it was not necessary.
   (issue #1135)
+- TabbedPane: Titles of disabled tabs were not grayed out if title contains
+  HTML. (issue #1143)
 - Make sure that `META-INF/MANIFEST.MF` is first jar entry, so that tools that
   use `JarInputStream` readers see `Multi-Release: true`. (issue #1139)
 - Native libraries: Fixed `IllegalArgumentException: URI has an authority component`
