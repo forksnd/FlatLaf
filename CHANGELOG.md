@@ -10,6 +10,8 @@ FlatLaf Change Log
 - Theme Editor: Added preview for color functions. (see PR #1132)
 - macOS: Add support for `Cmd+Backspace` and `Cmd+Delete` shortcuts to text
   components. (PR #1142, issue #1095)
+- Publish Maven/Gradle BOM (Bill of Materials) to Maven Central. Artifact ID
+  is `flatlaf-bom`. (issue #1146)
 
 #### Fixed bugs
 
