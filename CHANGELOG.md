@@ -15,6 +15,7 @@ FlatLaf Change Log
 
 #### Fixed bugs
 
+- ColorChooser: Do not use rounded border for color palette boxes. (issue #1150)
 - FileChooser:
   - Fixed selection painting in "Details" view when theme uses rounded
     selection. (issue #1137)

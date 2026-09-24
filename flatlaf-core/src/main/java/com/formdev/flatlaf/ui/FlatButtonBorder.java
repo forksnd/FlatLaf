@@ -206,7 +206,7 @@ public class FlatButtonBorder
 
 	@Override
 	protected int getArc( Component c ) {
-		if( isCellEditor( c ) )
+		if( !(c instanceof AbstractButton) || isCellEditor( c ) )
 			return 0;
 
 		switch( FlatButtonUI.getButtonType( c ) ) {
