@@ -1196,7 +1196,7 @@ class DemoFrame
 		usersButton.setIcon( new FlatSVGIcon( "com/formdev/flatlaf/demo/icons/users.svg" ) );
 		usersButton.setButtonType( ButtonType.toolBarButton );
 		usersButton.setFocusable( false );
-		usersButton.addActionListener( e -> JOptionPane.showMessageDialog( null, "Hello User! How are you?", "User", JOptionPane.INFORMATION_MESSAGE ) );
+		usersButton.addActionListener( e -> JOptionPane.showMessageDialog( this, "Hello User! How are you?", "User", JOptionPane.INFORMATION_MESSAGE ) );
 		menuBar.add( Box.createGlue() );
 		menuBar.add( usersButton );
 
